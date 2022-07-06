@@ -12,6 +12,6 @@
 В дальнейшем будет осуществлена возможность добавлять контент!
 
 Ссылка на проект в GitHub Pages ( ushakovdmitry.github.io/mesto/ )
-=======
 
->>>>>>> 9512a94531ac81137a69877a1d7e8468ac53adc7
+![Ссылка на проект](https://ushakovdmitry.github.io/mesto/)
+
