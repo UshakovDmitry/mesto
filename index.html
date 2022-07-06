@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./pages/index.css">
+  <title>Mesto</title>
+</head>
+<body class="root">
+  <div class="page">
+    <header class="header">
+      <img class="header__logo" src="./images/logo.svg" alt="Логотип">
+    </header>
+    <main class="content">
+      <section class="profile">
+        <img class="profile__avatar" src="./images/avatar.jpg" alt="Аватар">
+        <div class="profile__info">
+          <h1 class="profile__user-name">Жак-Ив Кусто</h1>
+          <button class="profile__edit-button" type="button"></button>
+          <p class="profile__user-info">Исследователь океана</p>
+        </div>
+        <button class="profile__button" type="button"></button>
+      </section>
+      <section class="elements">
+        <ul class="elements__container">
+          <li class="card">
+            <img class="card__image" src="./images/karachaev.jpg" alt="Карачаевск">
+              <button class="card__like" type="button"></button>
+            <h2 class="card__caption">Карачаевск</h2>
+          </li>
+          <li class="card">
+            <img class="card__image" src="./images/elbrus.jpg" alt="Гора-Эльбрус">
+              <button class="card__like" type="button"></button>
+            <h2 class="card__caption">Гора Эльбрус</h2>
+          </li>
+          <li class="card">
+            <img class="card__image" src="./images/dombay.jpg" alt="Домбай">
+              <button class="card__like" type="button"></button>
+            <h2 class="card__caption">Домбай</h2>
+          </li>
+          <li class="card">
+            <img class="card__image" src="./images/ubud.jpg" alt="Убуд">
+              <button class="card__like" type="button"></button>
+            <h2 class="card__caption">Убуд</h2>
+          </li>
+          <li class="card">
+            <img class="card__image" src="./images/monpelie.jpg" alt="Монпелье">
+              <button class="card__like" type="button"></button>
+            <h2 class="card__caption">Монпелье</h2>
+          </li>
+          <li class="card">
+            <img class="card__image" src="./images/praga.jpg" alt="Прага">
+              <button class="card__like" type="button"></button>
+            <h2 class="card__caption">Прага</h2>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__text">© 2022 Ushakov Dmitry</p>
+    </footer>
+  </div>
+  <div class="popup">
+    <div class="popup__container">
+      <form class="form" name="profile">
+        <h2 class="form__title">Редактировать профиль</h2>
+        <input class="form__input" type="text" name="name">
+        <input class="form__input" type="text" name="info">
+        <button class="form__submit-button" type="submit">Сохранить</button>
+      </form>
+      <button class="popup__close-icon" type="button"></button>
+    </div>
+  </div>
+  <script src="./scripts/index.js"></script>
+</body>
+</html>

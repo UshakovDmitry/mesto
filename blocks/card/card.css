@@ -1,0 +1,12 @@
+.card {
+  display: grid;
+  margin: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  grid-template: 282px 79px/auto 62px;
+  background-color: white;
+  grid-template-areas:
+  
+    "img img"
+    "caption like";
+}
