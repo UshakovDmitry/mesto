@@ -13,5 +13,5 @@
 
 Ссылка на проект в GitHub Pages ( ushakovdmitry.github.io/mesto/ )
 
-![Ссылка на проект](https://ushakovdmitry.github.io/mesto/)
+[Ссылка на проект на GitHub Pages](https://ushakovdmitry.github.io/mesto/)
 
